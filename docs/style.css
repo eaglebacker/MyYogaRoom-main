@@ -4,7 +4,7 @@ body {
 li {
   display:inline;
   justify-content:space-between;
-  border:2px solid black;
+  color:white;
   margin:25px;
   font-family:Verdana;
   padding:10px;
@@ -12,16 +12,21 @@ li {
 }
 li a {
   text-decoration:none;
-  color:#000;
+  color:white;
+}
+li a:hover {
+  border-bottom:2px solid black;
 }
 .navbar{
-  border:2px solid black;
+  border:2px solid white;
+  width:100%;
   text-align:center;
+      background-color: rgba(66, 197, 190, 1);
 }
 #header {
   text-align:center;
   font-size:30px;
-  font-family:Verdana;
+  font-family:Rockwell;
     
 }
 #mainimg {
@@ -38,43 +43,33 @@ li a {
   margin-left:auto;
   font-family:Verdana;
 }
-body {
 
+#insta {
+  border-radius:5%;
+  margin-top:3px;
 }
-li {
-  display:inline;
+.logo {
+  height:40px;
+  width:40px;
+  display:inline-block;
   justify-content:space-between;
-  border:2px solid black;
-  margin:25px;
-  font-family:Verdana;
-  padding:10px;
- 
+  border:none;
+  border-radius:100%;
+  position:relative;
+  bottom:15px;
+  left:45%;
+  margin-left:10px;
+  margin-right:10px;
+  
 }
-li a {
-  text-decoration:none;
-  color:#000;
+.logo:hover {
+  
 }
-.navbar{
-  border:2px solid black;
-  text-align:center;
-}
-#header {
-  text-align:center;
-  font-size:30px;
-  font-family:Verdana;
-    
-}
-#mainimg {
-  height:500px;
-  display:block;
-  margin-right:auto;
-  margin-left:auto;
-}
-.welcome {
-  text-align:center;
-  border:2px solid black;
-  width:60%;
-  margin-right:auto;
-  margin-left:auto;
-  font-family:Verdana;
+.socialbar {
+  width:100%;
+  border:2px solid white;
+  height:50px;
+  margin:25px 0px 25px 0px;
+  background-color:rgba(66, 197, 190, 1);
+  
 }
