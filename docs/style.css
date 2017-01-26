@@ -37,7 +37,8 @@ li a:hover {
     
 }
 #mainimg {
-  height:500px;
+  min-width:70%;
+  height:auto; 
   display:block;
   margin-right:auto;
   margin-left:auto;
