@@ -159,7 +159,6 @@ span{width:100%;height:100%;position:absolute;box-sizing:border-box;border:5px s
 span:nth-child(1){color:black;transform: translate3d(0, 0, 30px);-webkit-transform: translate3d(0, 0, 30px);}
 span:nth-child(2){color:black;background:white;transform: rotateX(90deg) translate3d(0, 0, 30px);-webkit-transform: rotateX(90deg) translate3d(0, 0, 30px);}
 .hoverbutton {
-  border:2px solid black;
   width:250px;
   margin-right:auto;
   margin-left:auto;
