@@ -150,6 +150,10 @@ li a:hover {
   height:50px;
   margin:25px 0px 25px 0px;
   background-color:rgba(66, 197, 190, 1);
+  position:fixed;
+  bottom:-25px;
+  left:-10px;
+  right:-10px;
   
 }
 figure{width:200px;height:60px;cursor:pointer;perspective:500px;-webkit-perspective:500px;}
